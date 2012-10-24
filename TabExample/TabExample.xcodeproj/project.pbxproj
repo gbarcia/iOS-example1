@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EBB801916382BE300FF8348 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBB801816382BE300FF8348 /* UIKit.framework */; };
+		9EBB801B16382BE300FF8348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBB801A16382BE300FF8348 /* Foundation.framework */; };
+		9EBB801D16382BE300FF8348 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBB801C16382BE300FF8348 /* CoreGraphics.framework */; };
+		9EBB802316382BE300FF8348 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB802116382BE300FF8348 /* InfoPlist.strings */; };
+		9EBB802516382BE300FF8348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB802416382BE300FF8348 /* main.m */; };
+		9EBB802916382BE300FF8348 /* TEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB802816382BE300FF8348 /* TEAppDelegate.m */; };
+		9EBB802B16382BE300FF8348 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB802A16382BE300FF8348 /* Default.png */; };
+		9EBB802D16382BE300FF8348 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB802C16382BE300FF8348 /* Default@2x.png */; };
+		9EBB802F16382BE300FF8348 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB802E16382BE300FF8348 /* Default-568h@2x.png */; };
+		9EBB803216382BE300FF8348 /* TEFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB803116382BE300FF8348 /* TEFirstViewController.m */; };
+		9EBB803416382BE300FF8348 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB803316382BE300FF8348 /* first.png */; };
+		9EBB803616382BE300FF8348 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB803516382BE300FF8348 /* first@2x.png */; };
+		9EBB803916382BE300FF8348 /* TESecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB803816382BE300FF8348 /* TESecondViewController.m */; };
+		9EBB803B16382BE300FF8348 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB803A16382BE300FF8348 /* second.png */; };
+		9EBB803D16382BE300FF8348 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB803C16382BE300FF8348 /* second@2x.png */; };
+		9EBB804016382BE300FF8348 /* TEFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB803E16382BE300FF8348 /* TEFirstViewController.xib */; };
+		9EBB804316382BE300FF8348 /* TESecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB804116382BE300FF8348 /* TESecondViewController.xib */; };
+		9EBB804C163830C600FF8348 /* TEThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB804A163830C600FF8348 /* TEThirdViewController.m */; };
+		9EBB804D163830C600FF8348 /* TEThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB804B163830C600FF8348 /* TEThirdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9EBB801416382BE300FF8348 /* TabExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBB801816382BE300FF8348 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9EBB801A16382BE300FF8348 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9EBB801C16382BE300FF8348 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9EBB802016382BE300FF8348 /* TabExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabExample-Info.plist"; sourceTree = "<group>"; };
+		9EBB802216382BE300FF8348 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EBB802416382BE300FF8348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EBB802616382BE300FF8348 /* TabExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabExample-Prefix.pch"; sourceTree = "<group>"; };
+		9EBB802716382BE300FF8348 /* TEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEAppDelegate.h; sourceTree = "<group>"; };
+		9EBB802816382BE300FF8348 /* TEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEAppDelegate.m; sourceTree = "<group>"; };
+		9EBB802A16382BE300FF8348 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9EBB802C16382BE300FF8348 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9EBB802E16382BE300FF8348 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9EBB803016382BE300FF8348 /* TEFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEFirstViewController.h; sourceTree = "<group>"; };
+		9EBB803116382BE300FF8348 /* TEFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEFirstViewController.m; sourceTree = "<group>"; };
+		9EBB803316382BE300FF8348 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		9EBB803516382BE300FF8348 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		9EBB803716382BE300FF8348 /* TESecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESecondViewController.h; sourceTree = "<group>"; };
+		9EBB803816382BE300FF8348 /* TESecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESecondViewController.m; sourceTree = "<group>"; };
+		9EBB803A16382BE300FF8348 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		9EBB803C16382BE300FF8348 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9EBB803F16382BE300FF8348 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TEFirstViewController.xib; sourceTree = "<group>"; };
+		9EBB804216382BE300FF8348 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TESecondViewController.xib; sourceTree = "<group>"; };
+		9EBB8049163830C600FF8348 /* TEThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEThirdViewController.h; sourceTree = "<group>"; };
+		9EBB804A163830C600FF8348 /* TEThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEThirdViewController.m; sourceTree = "<group>"; };
+		9EBB804B163830C600FF8348 /* TEThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TEThirdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EBB801116382BE300FF8348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBB801916382BE300FF8348 /* UIKit.framework in Frameworks */,
+				9EBB801B16382BE300FF8348 /* Foundation.framework in Frameworks */,
+				9EBB801D16382BE300FF8348 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EBB800916382BE300FF8348 = {
+			isa = PBXGroup;
+			children = (
+				9EBB801E16382BE300FF8348 /* TabExample */,
+				9EBB801716382BE300FF8348 /* Frameworks */,
+				9EBB801516382BE300FF8348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EBB801516382BE300FF8348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EBB801416382BE300FF8348 /* TabExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EBB801716382BE300FF8348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EBB801816382BE300FF8348 /* UIKit.framework */,
+				9EBB801A16382BE300FF8348 /* Foundation.framework */,
+				9EBB801C16382BE300FF8348 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EBB801E16382BE300FF8348 /* TabExample */ = {
+			isa = PBXGroup;
+			children = (
+				9EBB802716382BE300FF8348 /* TEAppDelegate.h */,
+				9EBB802816382BE300FF8348 /* TEAppDelegate.m */,
+				9EBB803016382BE300FF8348 /* TEFirstViewController.h */,
+				9EBB803116382BE300FF8348 /* TEFirstViewController.m */,
+				9EBB803316382BE300FF8348 /* first.png */,
+				9EBB803516382BE300FF8348 /* first@2x.png */,
+				9EBB803716382BE300FF8348 /* TESecondViewController.h */,
+				9EBB803816382BE300FF8348 /* TESecondViewController.m */,
+				9EBB803A16382BE300FF8348 /* second.png */,
+				9EBB803C16382BE300FF8348 /* second@2x.png */,
+				9EBB803E16382BE300FF8348 /* TEFirstViewController.xib */,
+				9EBB804116382BE300FF8348 /* TESecondViewController.xib */,
+				9EBB801F16382BE300FF8348 /* Supporting Files */,
+				9EBB8049163830C600FF8348 /* TEThirdViewController.h */,
+				9EBB804A163830C600FF8348 /* TEThirdViewController.m */,
+				9EBB804B163830C600FF8348 /* TEThirdViewController.xib */,
+			);
+			path = TabExample;
+			sourceTree = "<group>";
+		};
+		9EBB801F16382BE300FF8348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EBB802016382BE300FF8348 /* TabExample-Info.plist */,
+				9EBB802116382BE300FF8348 /* InfoPlist.strings */,
+				9EBB802416382BE300FF8348 /* main.m */,
+				9EBB802616382BE300FF8348 /* TabExample-Prefix.pch */,
+				9EBB802A16382BE300FF8348 /* Default.png */,
+				9EBB802C16382BE300FF8348 /* Default@2x.png */,
+				9EBB802E16382BE300FF8348 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EBB801316382BE300FF8348 /* TabExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EBB804616382BE300FF8348 /* Build configuration list for PBXNativeTarget "TabExample" */;
+			buildPhases = (
+				9EBB801016382BE300FF8348 /* Sources */,
+				9EBB801116382BE300FF8348 /* Frameworks */,
+				9EBB801216382BE300FF8348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabExample;
+			productName = TabExample;
+			productReference = 9EBB801416382BE300FF8348 /* TabExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EBB800B16382BE300FF8348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TE;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gerardo Barcia Palacios";
+			};
+			buildConfigurationList = 9EBB800E16382BE300FF8348 /* Build configuration list for PBXProject "TabExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9EBB800916382BE300FF8348;
+			productRefGroup = 9EBB801516382BE300FF8348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EBB801316382BE300FF8348 /* TabExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EBB801216382BE300FF8348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBB802316382BE300FF8348 /* InfoPlist.strings in Resources */,
+				9EBB802B16382BE300FF8348 /* Default.png in Resources */,
+				9EBB802D16382BE300FF8348 /* Default@2x.png in Resources */,
+				9EBB802F16382BE300FF8348 /* Default-568h@2x.png in Resources */,
+				9EBB803416382BE300FF8348 /* first.png in Resources */,
+				9EBB803616382BE300FF8348 /* first@2x.png in Resources */,
+				9EBB803B16382BE300FF8348 /* second.png in Resources */,
+				9EBB803D16382BE300FF8348 /* second@2x.png in Resources */,
+				9EBB804016382BE300FF8348 /* TEFirstViewController.xib in Resources */,
+				9EBB804316382BE300FF8348 /* TESecondViewController.xib in Resources */,
+				9EBB804D163830C600FF8348 /* TEThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EBB801016382BE300FF8348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBB802516382BE300FF8348 /* main.m in Sources */,
+				9EBB802916382BE300FF8348 /* TEAppDelegate.m in Sources */,
+				9EBB803216382BE300FF8348 /* TEFirstViewController.m in Sources */,
+				9EBB803916382BE300FF8348 /* TESecondViewController.m in Sources */,
+				9EBB804C163830C600FF8348 /* TEThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EBB802116382BE300FF8348 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EBB802216382BE300FF8348 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EBB803E16382BE300FF8348 /* TEFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EBB803F16382BE300FF8348 /* en */,
+			);
+			name = TEFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		9EBB804116382BE300FF8348 /* TESecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EBB804216382BE300FF8348 /* en */,
+			);
+			name = TESecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EBB804416382BE300FF8348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EBB804516382BE300FF8348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EBB804716382BE300FF8348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabExample/TabExample-Prefix.pch";
+				INFOPLIST_FILE = "TabExample/TabExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9EBB804816382BE300FF8348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabExample/TabExample-Prefix.pch";
+				INFOPLIST_FILE = "TabExample/TabExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EBB800E16382BE300FF8348 /* Build configuration list for PBXProject "TabExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBB804416382BE300FF8348 /* Debug */,
+				9EBB804516382BE300FF8348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EBB804616382BE300FF8348 /* Build configuration list for PBXNativeTarget "TabExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBB804716382BE300FF8348 /* Debug */,
+				9EBB804816382BE300FF8348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EBB800B16382BE300FF8348 /* Project object */;
+}
