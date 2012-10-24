@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CityController.h"
 
 @interface CGViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
     NSMutableArray *cities;
