@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E9DEF411637F5600062064E /* AddCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DEF3F1637F5600062064E /* AddCityController.m */; };
+		9E9DEF421637F5600062064E /* AddCityController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E9DEF401637F5600062064E /* AddCityController.xib */; };
 		9EF84E461635515200EF797A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF84E451635515200EF797A /* UIKit.framework */; };
 		9EF84E481635515200EF797A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF84E471635515200EF797A /* Foundation.framework */; };
 		9EF84E4A1635515200EF797A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF84E491635515200EF797A /* CoreGraphics.framework */; };
@@ -27,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E9DEF3E1637F5600062064E /* AddCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCityController.h; sourceTree = "<group>"; };
+		9E9DEF3F1637F5600062064E /* AddCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCityController.m; sourceTree = "<group>"; };
+		9E9DEF401637F5600062064E /* AddCityController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCityController.xib; sourceTree = "<group>"; };
 		9EF84E411635515200EF797A /* CityGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF84E451635515200EF797A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9EF84E471635515200EF797A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -108,6 +113,9 @@
 				9EF84E711635A86300EF797A /* CityController.h */,
 				9EF84E721635A86300EF797A /* CityController.m */,
 				9EF84E731635A86300EF797A /* CityController.xib */,
+				9E9DEF3E1637F5600062064E /* AddCityController.h */,
+				9E9DEF3F1637F5600062064E /* AddCityController.m */,
+				9E9DEF401637F5600062064E /* AddCityController.xib */,
 			);
 			path = CityGuide;
 			sourceTree = "<group>";
@@ -190,6 +198,7 @@
 				9EF84E6F163594E400EF797A /* Sanfrancisco.jpg in Resources */,
 				9EF84E70163594E400EF797A /* Sydney.jpg in Resources */,
 				9EF84E751635A86300EF797A /* CityController.xib in Resources */,
+				9E9DEF421637F5600062064E /* AddCityController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +214,7 @@
 				9EF84E5F1635515200EF797A /* CGViewController.m in Sources */,
 				9EF84E6A1635906300EF797A /* City.m in Sources */,
 				9EF84E741635A86300EF797A /* CityController.m in Sources */,
+				9E9DEF411637F5600062064E /* AddCityController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +331,7 @@
 				9EF84E671635515200EF797A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
