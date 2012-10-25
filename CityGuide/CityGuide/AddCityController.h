@@ -9,10 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface AddCityController : UIViewController
-<UITableViewDataSource, UITableViewDelegate> {
+<UITableViewDataSource, UITableViewDelegate,
+UIImagePickerControllerDelegate, UINavigationControllerDelegate> {
     IBOutlet UITableView *tableView;
     IBOutlet UITableViewCell *nameCell;
+    IBOutlet UITableViewCell *pictureCell;
     IBOutlet UITableViewCell *descriptionCell;
+    
+    UIImage *cityPicture;
+    UIImagePickerController *pickerController;
 }
+
+- (IBAction)addPicture:(id)sender;
 
 @end
